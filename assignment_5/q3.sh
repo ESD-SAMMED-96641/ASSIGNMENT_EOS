@@ -14,6 +14,6 @@ echo " $name is file "
 elif [ -d $name ]
 then
 echo "$name is directory "
- ls -s "$name"
+ ls -a "$name"
 
 fi
